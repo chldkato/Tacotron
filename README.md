@@ -48,4 +48,5 @@ logs-tacotron 폴더에 135000까지 학습한 모델이 있습니다
    ```
      * eval.py를 열어서 합성할 문장을 정하면 됩니다
 
+#### Attention alignment example
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/49984198/77516623-13029780-6ebe-11ea-8bd2-821930682ea8.gif)
