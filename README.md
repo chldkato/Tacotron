@@ -1,6 +1,6 @@
 # Tacotron Korean TTS
 
-**[Keith Ito](https://github.com/keithito)**의 타코트론 코드로 한국어 TTS를 구현합니다
+[Keith Ito](https://github.com/keithito)의 타코트론 코드로 한국어 TTS를 구현합니다
 
 based on
   * https://github.com/keithito/tacotron
