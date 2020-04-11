@@ -84,7 +84,7 @@ def train(log_dir, args):
           audio.save_wav(waveform, os.path.join(log_dir, 'step-%d-audio.wav' % step))
           input_seq = sequence_to_text(input_seq)
           plot.plot_alignment(alignment, os.path.join(log_dir, 'step-%d-align.png' % step), input_seq,
-            info='%s, step=%d, loss=%.5f' % (args.model, step, loss))
+            info='%s, step=%d, loss=%.5f' % (args.model, step, loss), istrain=1)
           log('Input: %s' % input_seq)
 
     except Exception as e:
