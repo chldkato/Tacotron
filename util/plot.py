@@ -10,7 +10,7 @@ matplotlib.rc('font', family=font_name, size=14)
 
 def plot_alignment(alignment, path, text, info=None):
   text = text.rstrip('_').rstrip('~')
-  alignment = alignment[:len(text)]
+  alignment = alignment[:len(text), :len(alignment[1]) // 2]
   _, ax = plt.subplots(figsize=(len(text)/3, 5))
   ax.imshow(
     alignment.T,
