@@ -8,9 +8,12 @@ font_name = fm.FontProperties(fname="c:/Windows/Fonts/malgun.ttf").get_name()
 matplotlib.rc('font', family=font_name, size=14)
 
 
-def plot_alignment(alignment, path, text, info=None):
+def plot_alignment(alignment, path, text, info=None, istrain=0):
   text = text.rstrip('_').rstrip('~')
-  alignment = alignment[:len(text), :len(alignment[1]) // 2]
+  if istrain:
+    alignment = alignment[:len(text)]
+  else:
+    alignment = alignment[:len(text), :len(alignment[1]) // 2]
   _, ax = plt.subplots(figsize=(len(text)/3, 5))
   ax.imshow(
     alignment.T,
