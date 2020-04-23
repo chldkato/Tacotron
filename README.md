@@ -50,3 +50,10 @@ logs-tacotron 폴더에 135000까지 학습한 모델이 있습니다
 
 #### Attention alignment example
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/49984198/77516623-13029780-6ebe-11ea-8bd2-821930682ea8.gif)
+
+
+윈도우에서 Tacotron 한국어 TTS 학습하기
+  * https://chldkato.tistory.com/141
+  
+Tacotron 정리
+  * https://chldkato.tistory.com/143
